@@ -1,7 +1,13 @@
+import React, { Component } from "react";
 import "./App.css";
+import Pages from "./pages";
 
-function App() {
-  return <div className="App"></div>;
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Pages></Pages>
+      </div>
+    );
+  }
 }
-
-export default App;
