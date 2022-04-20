@@ -1,0 +1,9 @@
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white!important;
+}
+
+.base-layout{
+    height: 100vh;
+}
